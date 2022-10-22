@@ -4,25 +4,33 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Introducción web 2</title>
-    <link rel="stylesheet" href="miestilo.css">
+    <title>Introducción web 3</title>
+    <link rel="stylesheet" href="./styles/miestilo.css">
+    <!--<link rel="stylesheet" href="/stilos/miestilo2.css">-->
+    <style>
+        h1 {color:rgb(253, 240, 246);}
+    </style>
+    <style>
+        body {background-color: aliceblue;}
+    </style>
+
 </head>
 <!--eiquetas semánticas de body-->
 <body>
     <header>
-       <h1>Este es el título</h1>  
-       <h2>Este es el título</h2>
+       <h1 class="titulo"; >Este es el título</h1>  
+       <!--<h2>Este es el título</h2>
        <h3>Este es el título</h3>
        <h4>Este es el título</h4>
        <h5>Este es el título</h5>
-       <h6>Este es el título</h6>
+       <h6>Este es el título</h6>-->
     </header>
     <nav>
         <a href="./mishtmls/principal.html">Principal</a>
          | <a href="./mishtmls/fotos.html">Fotos</a> | Vídeos | Contacto 
     </nav>
     <main>
-        <section>
+        <section id="selector">
             Artículos
             <article>
                 Lee más sobre el tema
@@ -35,7 +43,7 @@
                 </p>
 
                 <pre>
-                    Lorem ipsum, dolor sit amet consectetur adipisicing elit. Consequatur,<br> saepe aspernatur <i>expedita facere</i> nemo delectus iure <strong>totam error alias eveniet,</strong> fuga quia sint consequuntur vel aut non harum voluptas libero?
+                    Lorem ipsum, dolor sit amet consectetur adipisicing elit. Consequatur,<br> saepe aspernatur <i>expedita facere</i> nemo delectus iure <strong id="selector">totam error alias eveniet,</strong> fuga quia sint consequuntur vel aut non harum voluptas libero?
                 </pre>
 
                 <pre>
@@ -52,9 +60,8 @@
             </article>
         </section>
 
-        <aside>
+        <aside class="b1">
             Cita del artículo
-        </aside>
 
         <ul>
             <li> lunes </li>
@@ -73,6 +80,7 @@
             <li> cebolla </li>
             <li> limón </li>
         </ol>
+        </aside>
 
 <details>
     <summary>
@@ -91,7 +99,7 @@
         <th>D</th>-->
     </tr>
     <tr>
-        <td bgcolor="pink">2</td>
+        <td bgcolor="white">2</td>
         <td>3</td>
         <td>5</td>
         <td>7</td>

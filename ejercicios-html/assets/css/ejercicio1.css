@@ -1,0 +1,76 @@
+
+
+pre {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+* {
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+.fondo1 {
+    font-size:smaller;
+    background-color: rgb(94, 255, 35);
+    width: 150mm;
+    height: 17mm;
+    margin: 0px;
+    margin-top: -3mm;
+    margin-bottom: 0mm;
+    border: 0px;
+    padding:0px;
+    padding-top:0mm;
+}
+
+.fondo2 {
+    background-color: rgb(118, 116, 115);
+    width:150mm;
+    height:40mm;
+    margin: 0mm;
+    margin-left: 0mm;
+    border: 0mm;
+    padding:0mm;
+    padding-top: 0mm;
+}
+
+.fondo3 {
+    background-color: rgb(255, 239, 21);
+    width:150mm;
+    height:40mm;
+    margin: 0mm;
+    margin-top:-5mm;
+    border: 0mm;
+    padding:0mm;
+    padding-top: 0px;
+}
+
+.letralinea1 {
+    color: rgb(6, 105, 72);
+}
+
+.letralinea2 {
+    color:rgb(251, 0, 0);
+}
+
+.letralinea3 {
+    color:blue
+}
+
+.letralinea4 {
+    color:rgb(240, 124, 0);
+}
+
+.letralinea5 {
+    color:rgb(108, 5, 134);
+}
+
+.letralinea6 {
+    color:rgb(71, 125, 0);
+}
+
+.letralinea7 {
+    color:rgb(226, 0, 132);
+}
+
+.letralinea8 {
+    color:rgb(13, 255, 0);
+}

@@ -1,0 +1,27 @@
+p {
+    color: rgb(247, 24, 199)
+}
+
+pre {
+    color: blueviolet;
+}
+
+* {
+    color: orange;
+}
+
+em {
+    color:brown;
+}
+.titulo {
+    color:blue
+}
+.b1 {
+    float:right;
+    background-color: black;
+    color: greenyellow;
+}
+
+#selector {
+    color:rgb(3, 9, 11);
+}

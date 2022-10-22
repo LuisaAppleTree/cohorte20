@@ -1,0 +1,45 @@
+em {
+    color: rgb(240, 117, 138);
+}
+
+p {
+    font-size:2pc;
+    color:rgb(100, 44, 56);
+}
+
+.titulo {
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    color: rgb(70, 86, 56);
+    background-color: rgba(254, 160, 143, 0.80);
+}
+
+#selector {
+    font-size: 5mm;
+    color: rgb(245, 200, 231);
+    background-color: rgba(90, 107, 85, 0.8);
+}
+
+#formato {
+
+    border: 1mm solid rgb(240, 117, 138);
+    width: 10,000px;
+    height:500px;
+    overflow:scroll;
+    margin:10px;
+    padding:10px;
+}
+
+.foto {
+
+    border:100mm rgba(253, 173, 192);
+    width: 1pc;
+    margin: 10px;
+    padding:10px;
+}
+
+.piedefoto {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 10mm;
+    background-color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
+}
