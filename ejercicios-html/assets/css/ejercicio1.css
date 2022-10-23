@@ -74,3 +74,33 @@ pre {
 .letralinea8 {
     color:rgb(13, 255, 0);
 }
+
+.titulocv {
+    color: rgb(66, 66, 135);
+    background-color: rgb(199, 199, 199);
+    font-size: 6mm;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.subtitulos {
+    color: rgb(56, 14, 82);
+    font-size:4.5mm;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+
+}
+
+.lista {
+    color:rgb(20, 108, 8);
+    font-style: normal;
+}
+
+.letraazul {
+    color:blue
+}
+
+em {
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: 600;
+    color:white;
+    background-color: black;
+}
