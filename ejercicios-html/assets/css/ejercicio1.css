@@ -80,6 +80,8 @@ pre {
     background-color: rgb(199, 199, 199);
     font-size: 6mm;
     font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    letter-spacing:6mm;
+    word-spacing:12mm;
 }
 
 .subtitulos {
