@@ -1,0 +1,27 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,500;1,700&family=Text+Me+One&display=swap');
+
+
+
+
+
+.padre {
+    font-size: 50px;
+}
+
+.parrafo1 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1rem;
+}
+
+.parrafo2 {
+    font-family: 'Text Me One', sans-serif;
+    font-weight: 700;
+    font-size: 1rem;
+}
+
+
+
+.fa-dragon {
+    color:palevioletred;
+    font-size: 30px;
+}
