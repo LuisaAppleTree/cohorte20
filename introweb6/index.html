@@ -8,8 +8,10 @@
     <link rel="stylesheet" href="./bootstrap-5/css/bootstrap.min.css">
     <link rel="stylesheet" href="./styles/css0.css">
 </head>
+
 <body>
    <h1>Hola Bootstrap 5</h1>
+
 <div class="container">
 <p>
     este es un parrafo dentro de un contenedor "container"
@@ -17,7 +19,7 @@
 </div>
 
 <div class="container">
-    <div class="row">
+    <div class="row text-center">
       <div class="col uno">
         Column
       </div>
@@ -33,14 +35,106 @@
         <div class="col color1">
           1 of 3
         </div>
-        <div class="col-6 ancho">
+        <div class="col-5 ancho">
           2 of 3 (wider)
         </div>
-        <div class="col">
+        <div class="col color2">
           3 of 3
+        </div>
+
+        <div class="row justify-content-md-center">
+          <div class="col col-lg-2">
+            1 of 3
+          </div>
+          <div class="col-md-auto">
+            Variable width content
+          </div>
+          <div class="col col-lg-2">
+            3 of 3
+          </div>
         </div>
   </div>
 
+          <!-- Pruebas 4 fila -->
+          <div class="row">
+            <div class="col coloruno">col</div>
+            <div class="col colordos">col</div>
+            <div class="col colortres">col</div>
+            <div class="col colorcuatro">col</div>
+          </div>
+</div>
+
+<!-- Esto es un button -->
+<div class="container buttons">
+
+<button type="button" class="btn btn-warning">Click</button>
+<button type="button" class="btn btn-dark btn-sm">Small button</button>
+<a class="btn btn-primary" href="#" role="button">Link</a>
+<button class="btn btn-primary" type="submit">Button</button>
+<button type="button" class="btn btn-outline-warning">Warning</button>
+<button type="button" class="btn btn-outline-info">Info</button>
+<a class="btn btn-secondary disabled" role="button" aria-disabled="true">Link</a>
+<div class="d-grid gap-2">
+  <button class="btn btn-light" type="button">Button</button>
+</div>
+
+<!-- alert -->
+<div id="liveAlertPlaceholder"></div>
+<button type="button" class="btn btn-primary" id="liveAlertBtn">Show live alert</button>
+
+<script>
+  const alertPlaceholder = document.getElementById('liveAlertPlaceholder')
+
+const alert = (message, type) => {
+  const wrapper = document.createElement('div')
+  wrapper.innerHTML = [
+    `<div class="alert alert-${type} alert-dismissible" role="alert">`,
+    `   <div>${message}</div>`,
+    '   <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>',
+    '</div>'
+  ].join('')
+
+  alertPlaceholder.append(wrapper)
+}
+
+const alertTrigger = document.getElementById('liveAlertBtn')
+if (alertTrigger) {
+  alertTrigger.addEventListener('click', () => {
+    alert('Nice, you triggered this alert message!', 'success')
+  })
+}
+</script>
+
+<!-- Modales -->
+<!-- Button trigger modal -->
+<button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">
+  Launch demo modal
+</button>
+
+<!-- Modal -->
+<div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h1 class="modal-title fs-5" id="exampleModalLabel">Este es un modal, mira</h1>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        este es el mensaje del modal
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+        <button type="button" class="btn btn-primary">Save changes</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- Cartas -->
+<div class="card">
+  <div class="card-body">
+    Aquí se ingresa el texto de las cartas.
+  </div>
 </div>
 
    <script src="./bootstrap-5/js/bootstrap.bundle.min.js"></script>

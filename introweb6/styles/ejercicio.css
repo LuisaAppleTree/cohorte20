@@ -1,0 +1,40 @@
+.navbar {
+    height: 100px;
+}
+
+.navbar-nav {
+    background-color:#999991;
+    column-gap: 15rem;
+    width: 60px;
+    padding-left: 100px;
+}
+
+.nav-link {
+    width: 80px;
+}
+
+
+
+
+
+
+.col1-1 {
+    background-color:#1a75ff;
+    height: 8rem;
+    width: 15rem;
+    margin-left: 1rem;
+}
+
+.col2-1 {
+    background-color: #ffcc00;
+    height: 8rem;
+    width: 15rem;
+    margin-left: 1rem;
+}
+
+.col3-1 {
+    background-color:#c23e3e;
+    height: 8rem;
+    width: 15rem;
+    margin-left: 1rem;
+}
