@@ -13,28 +13,14 @@
     width: 80px;
 }
 
-
-
-
-
-
-.col1-1 {
-    background-color:#1a75ff;
-    height: 8rem;
-    width: 15rem;
-    margin-left: 1rem;
+.cajas-productos {
+    height: 30vh;
+    width: 100vh;
+    margin-left:20px;
 }
 
-.col2-1 {
-    background-color: #ffcc00;
-    height: 8rem;
-    width: 15rem;
-    margin-left: 1rem;
+.footer {
+    margin-top:35vh;
+    margin-left:3px;
 }
 
-.col3-1 {
-    background-color:#c23e3e;
-    height: 8rem;
-    width: 15rem;
-    margin-left: 1rem;
-}
