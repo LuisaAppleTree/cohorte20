@@ -79,4 +79,29 @@ console.log(valorNulo);
 let varUn;
 console.log(varUn);
 
+//typeof
+let a = "Hola";
+let b = 2;
+let c = true;
+let d = null;
+let e;
 
+console.log(typeof a);
+console.log(typeof b);
+console.log(typeof c);
+console.log(typeof d);
+console.log(typeof e);
+
+
+//concatenacion valores
+console.log("Esto es un saludo " + a + " " + b);
+
+//caracteres de escape
+let texto = "Esto es un ejemplo de 'una string' con comillas dentro";
+console.log(texto);
+
+let texto2 = 'Otro ejemplo de "string" usando comillas al revés';
+console.log(texto2);
+
+let textoLong = "Con esta cadena de texto \nharé los ejemplos necesarios"
+console.log(textoLong);

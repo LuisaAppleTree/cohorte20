@@ -1,6 +1,4 @@
 //suma
-
-
 function suma (){
     let num1 = 5
     let num2 = 7
@@ -10,7 +8,6 @@ function suma (){
 console.log("La suma es" + suma());
 
 //resta
-
 function resta (){
     let num1 = 5
     let num2 = 7
@@ -20,7 +17,6 @@ function resta (){
 console.log("La resta es" + resta());
 
 //multiplicacion
-
 function multiplicacion (){
     let num1 = 5
     let num2 = 7
@@ -31,7 +27,6 @@ console.log("La multiplicacion es" + multiplicacion());
 
 
 //division
-
 function division (){
     let num1 = 10
     let num2 = 2
@@ -41,7 +36,6 @@ function division (){
 console.log("La division es" + division());
 
 //residuo 
-
 function residuo (){
     let num1 = 7
     let num2 = 2
@@ -51,7 +45,6 @@ function residuo (){
 console.log("El residuo es" + residuo());
 
 //decremento, incremento
-
 function incremento (){
     let num1 = 5;
     let resultado =  (num1++);
@@ -137,24 +130,10 @@ disyuncion();
 
 
 //operador not !!
-
-function negacion(){
-    let valor1 = true;
-    if(!valor1){
-        console.log("El valor es " + valor1);
-    } else {
-        console.log("El valor negado es" + valor1);
-    }
-}
-negacion();
-
-/*console.log("El valor es " + valor1) aqui se concatena 
-añadiendo el + */
-//operador not !!
 function negacion(){
 
     let valor1 = false;
-    if((!valor1)){
+    if(!valor1){
         console.log("El valor es " + valor1);
     }else{
         console.log("El valor negado es" + valor1);
@@ -162,5 +141,5 @@ function negacion(){
 }
 negacion();
 
-// hasta acá funciona punto de control xD
+
 

@@ -49,10 +49,10 @@ logico();
 //boleanos
 function logico() {
     let valido = 5;
-    let valido2 = 3;
-    if (valido > valido2) {
+    let valido2 = 5;
+    if (valido >= valido2) {
         console.log("el mayor es" + valido2);
-
     }
-    logico ();
 }
+logico ();
+
