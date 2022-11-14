@@ -2,7 +2,7 @@ alert("Esto es una alerta");
 
 
 
-//propiedades de arreglos
+//métodos de arreglos
 //length
 
 const frutas = ["🍓", "Manzana", "Guayaba"];
@@ -52,6 +52,7 @@ console.log(frutas[0]);
 
 
 //nuevo día owo ojo
+
 //index.of
 console.log(frutas.indexOf("manzana"));
 console.log(frutas.indexOf("Manzana"));
@@ -85,14 +86,15 @@ numeros.sort(function order(a,b){return a-b});
 console.log(numeros);
 
 
-//reverse (intento fallido)
+//reverse 
 const arreglo = [1,2,5,8,["Alberto", "Pedro", 
 "Manuel"], true, false, [["Manzana", "Pera", "Uva", 
 "Naranja", ["Limón", -234, -5]],["Papa", 
 "Calabaza", "Aguacate"],[255, 512, 1024]]];
+
 console.log(arreglo);
 
-arreglo[4].reverse();
+arreglo[4].reverse()
 console.log(arreglo);
 
 //intento de invertir array 4 (fallido).

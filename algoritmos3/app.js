@@ -9,8 +9,6 @@ console.log(nombre);
 let arr1 = new Array("Raul", 3, true);
 console.log(arr1);
 
-
-
 //manera corta de crear arreglo
 let arr2 = ["Raul", "CDMX", 600];
 console.log(arr2);
@@ -26,9 +24,6 @@ console.log(arr4);
 
 
 /*modificar valores o agregar un valor 
-
-
-
 
     /*para mostrar un numero en especficio tomar en cuenta 
 el indice, dentro del console log agregar los corchetes y 
@@ -60,7 +55,6 @@ console.log(arr6);
 arr6[7]="Buenas"
 console.log (arr6);
 
-//hasta aca todo bien.
 
 /*arreglos permiten guardar multiples y diferentes
 tipos de datos arreglos dentro de otro arreglo se 
@@ -69,6 +63,8 @@ llama arreglo matriz*/
 const arr7 = [1, "Adiós", false, [1]];
 console.log(arr7[2]);
 console.log(arr7[3][0]);
+
+
 //añadir valor
 arr7[10] = 5;
 console.log(arr7);
