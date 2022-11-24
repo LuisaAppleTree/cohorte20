@@ -2,7 +2,6 @@
 
 let edad = Number(prompt ("Escribe tu edad"));
 
-// console.log(edad === 18);
 
 if ((edad > 0) && (edad <= 17)){
    document.write("Tas chiquito");

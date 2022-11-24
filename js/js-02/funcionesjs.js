@@ -33,7 +33,7 @@ function funcion3 (){
 funcion3();
 
 
-function funcion4 (valor = 4){
+function funcion4 (valor){
     let numero = 6;
     numero = numero * valor;
     return numero;
@@ -117,8 +117,32 @@ console.log("El precio total con impuestos es: " + precioConImpuestoFinal);
 //objetos
 let miObjeto = {
     nombre: "Juan", 
-    edad: 30
+    edad: 30,
+    datos:function() {
+
+        let mensaje = "tu nombre es: " + this.nombre;
+        mensaje += " tienes " + this.edad + " años";
+        console.log(mensaje);
+    }
 };
-let mensaje = "tunombre es: " + miObjeto.nombre;
-mensaje += " tienes " + miObjeto ["edad"] + " años";
-console.log(mensaje);
+miObjeto.datos();
+
+
+let constructor = function () {
+    let objPersona = {
+        nombre: "Juan",
+        nss: 2357,
+        datosPersona: function () {
+            let msj = "eres " + this.nombre + " el número nss es: " + this.nss;
+            console.log(msj);
+        },
+        otroMetodo: function(parametro) {
+            let numero = 8;
+            console.log("La suma es: " + (numero + parametro));
+        }
+    };
+    return objPersona;
+}
+let variableObjReg = new constructor();
+variableObjReg.datosPersona();
+variableObjReg.otroMetodo(5);
