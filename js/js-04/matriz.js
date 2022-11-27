@@ -7,19 +7,7 @@ let arr = [
 ];
 
 
-
-//do,for, while
-let i = 0;
-do{
-    for(let j = 0; j <= 2; j++) {
-        console.log(arr[i][j]);
-    }
-    i++;
-    console.log("-------------");
-}while (i <= 0);
-
-
-//for
+//  for
 // for (let i = 0; i <= 2; i++){
 //     for (let j = 0; j <= 2; j++ ){
 //         console.log(arr [i][j]);
@@ -29,13 +17,16 @@ do{
 
 
 //while
+// let contador = 0;
 // while(contador < 10 ){
 
 //     contador = contador+1;
 //     console.log(contador);
 // }
+// console.log(contador);
 
-//do
+
+//do-while
 // let contador = 0;
 // do{
 // console.log(contador);
@@ -55,6 +46,18 @@ do{
 //     console.log("----------------");
 // }
 
-// //
+
+//do,for, while
+let i = 0;
+do {
+    for (let j = 0; j <= 2; j++) {
+        console.log(arr[i][j]);
+    }
+    i++;
+    console.log("-------------");
+}while (i <= 0);
+
+
+//
 // let cadena = "hola que tal";
 // console.log(cadena.length);

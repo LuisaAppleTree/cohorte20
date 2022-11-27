@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario Suma</title>
+</head>
+<body>
+    <h1>Suma</h1>
+    <form id="sumar">
+        Valor 1 <input type="text" name="valor1" id="numero1"><br>
+        Valor 2 <input type="text" name="valor2" id="numero2">
+    </form>
+    <button onclick="sumarValores()">Mostrar valores</button>
+    <button onclick="suma()">Sumar</button>
+    <div id="valores"></div>
+    <script>
+        function sumarValores(){
+            let formulario = document.forms["sumar"]
+            let numero = " ";
+            for (let elemento of formulario) {
+                numero += elemento.value + "<br/>";
+            }
+            document.getElementById("valores").innerHTML = numero;
+        }
+
+        function suma() {
+            let numero1 = document.getElementById("numero1").value;
+            let numero2 = document.getElementById("numero2").value;
+
+            var suma = parseInt(numero1) + parseInt(numero2);
+            document.getElementById("valores").innerHTML = suma;
+        }
+
+    
+    </script>
+    
+</body>
+</html>

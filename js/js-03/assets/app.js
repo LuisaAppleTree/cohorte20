@@ -41,6 +41,8 @@ if(dia === 1)
 }else if(dia === 7)
 {
     document.write("Domingo")
+}else {
+    document.write("No es un número válido");
 }
 
 
