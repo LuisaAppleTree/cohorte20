@@ -4,8 +4,8 @@ plugins {
 	id 'io.spring.dependency-management' version '1.1.0'
 }
 
-group = 'com.mlmm'
-version = '0.0.1-SNAPSHOT'
+group = 'com.generation.mlmm'
+version = '0.1'
 sourceCompatibility = '17'
 
 configurations {

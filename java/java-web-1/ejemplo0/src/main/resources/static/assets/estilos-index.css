@@ -1,0 +1,496 @@
+@import url('https://fonts.googleapis.com/css2?family=Gayathri:wght@100&family=Jost:wght@200&family=Montserrat:wght@300;400&family=Nokora:wght@100&family=Nova+Square&display=swap');
+
+/* font-family: 'Gayathri', sans-serif;
+font-family: 'Montserrat', sans-serif;
+font-family: 'Nokora', sans-serif;
+font-family: 'Nova Square', cursive; */
+
+html {
+    scroll-behavior: smooth;
+}
+
+
+ /* inicia barra de navegación  */
+.navbar {
+    padding: 2rem;
+    background-color: rgb(255, 255, 255);
+    height: 10rem;
+    max-width: 100vw;
+}
+
+.navbar:hover {
+    height:15rem;
+    max-width: 100vw;
+}
+
+.logo-navbar {
+    width:12rem;
+}
+
+.logo-navbar:hover {
+    width: 17rem;
+}
+
+.navbar-collapse {
+    align-items: center;
+    justify-content:space-between;
+}
+
+.nav-pills-1 {
+    font-family: 'Nova Square', cursive;
+    font-size: 1.5rem;
+    background-color: rgb(255, 255, 255);
+    border-radius: 10%;
+    margin:1rem;
+    padding:1rem;
+    border:0px;
+}
+
+.nav-pills-1:hover {
+    font-family: 'Nova Square', cursive;
+    background-color: rgb(165, 165, 165);
+    box-shadow: 0 0px 20px 0 rgb(114, 102, 104), 0 0px 50px 0 rgb(58, 57, 57);
+    border-radius: 10%;
+    margin:1rem;
+    padding:1rem;
+    border:0px;
+}
+
+.nav-pills-2 {
+    font-family: 'Nova Square', cursive;
+    font-size: 1.5rem;
+    background-color: rgb(255, 255, 255);
+    border-radius: 10%;
+    margin:1rem;
+    padding:1rem;
+    border:0px;
+}
+
+.nav-pills-2:hover {
+    font-family: 'Nova Square', cursive;
+    background-color: rgb(194, 11, 11);
+    box-shadow: 0 0px 20px 0 rgb(247, 74, 103), 0 0px 50px 0 rgb(207, 60, 60);
+    border-radius: 10%;
+    margin:1rem;
+    padding:1rem;
+    border:0px;
+}
+
+.nav-pills-3 {
+    font-family: 'Nova Square', cursive;
+    font-size: 1.5rem;
+    background-color: rgb(255, 255, 255);
+    border-radius: 10%;
+    margin:1rem;
+    padding:1rem;
+    border:0px;
+}
+
+.nav-pills-3:hover {
+    font-family: 'Nova Square', cursive;
+    background-color: rgb(235, 162, 4);
+    box-shadow: 0 0px 20px 0 rgb(255, 241, 44), 0 0px 50px 0 rgb(255, 222, 36);
+    border-radius: 10%;
+    margin:1rem;
+    padding:1rem;
+    border:0px;
+}
+
+.nav-pills-4 {
+    font-family: 'Nova Square', cursive;
+    font-size: 1.5rem;
+    background-color: rgb(255, 255, 255);
+    border-radius: 10%;
+    margin:1rem;
+    padding:1rem;
+    border:0px;
+}
+
+.nav-pills-4:hover {
+    font-family: 'Nova Square', cursive;
+    background-color: rgb(32, 5, 150);
+    box-shadow: 0 0px 20px 0 rgb(83, 44, 255), 0 0px 50px 0 rgb(36, 58, 255);
+    border-radius: 10%;
+    margin:1rem;
+    padding:1rem;
+    border:0px;
+}
+ /* termina barra de navegacion */
+
+ /* inicia hero */
+
+section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    max-width: 100vw;
+}
+
+.hero {
+    background-color:rgb(255, 255, 255);
+    min-height: 450px;
+    text-align: center;
+ }
+
+.hero-principal {
+    min-height: 450px;
+    text-align: center;
+    padding:3rem;
+}
+
+.foto {
+    max-width: 500px;
+    max-height:500px;
+    border-radius: 50%;
+    margin: 2rem;
+    box-shadow: 0 0px 50px 0 rgb(114, 102, 104), 0 0px 50px 0 rgb(58, 57, 57);
+}
+
+.main-text {
+    margin:1rem;
+    color: rgb(0, 0, 0);
+    text-shadow: 1px 1px 2px rgb(253, 251, 251), 0 0 25px rgb(172, 172, 172), 0 0 5px rgb(75, 75, 75);
+    font-family: 'Nova Square', cursive;
+    font-size:2.5rem;
+}
+
+.letras-welcome {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: white;
+    max-height: 2rem;
+    margin-bottom: 2rem;
+}
+
+.main-text-b {
+    font-family:'Nova Square', cursive;
+    color:black;
+    font-weight: 200;
+    font-size: 4rem;
+    margin: 2px;
+}
+
+.main-text-b:hover {
+    font-family:'Nova Square', cursive;
+    margin: 2px;
+    font-weight: 600;
+    color:rgb(194, 11, 11);
+    text-shadow: 0px 0px 20px rgb(247, 74, 103), 0 0 15px rgb(207, 60, 60), 0 0 20px rgb(255, 130, 130);
+}
+
+.main-text-i {
+    font-family:'Nova Square', cursive;
+    color:black;
+    font-weight: 200;
+    font-size: 4rem;
+    margin: 2px;
+}
+
+.main-text-i:hover {
+    font-family:'Nova Square', cursive;
+    margin: 2px;
+    font-weight: 600;
+    color:rgb(235, 162, 4);
+    text-shadow: 0px 0px 20px rgb(255, 206, 44), 0 0 15px rgb(255, 243, 79), 0 0 20px rgb(255, 219, 18);
+}
+
+.main-text-e {
+    font-family:'Nova Square', cursive;
+    color:black;
+    font-weight: 200;
+    font-size: 4rem;
+    margin: 2px;
+}
+
+.main-text-e:hover {
+    font-family:'Nova Square', cursive;
+    margin: 2px;
+    font-weight: 600;
+    color:rgb(32, 5, 150);
+    text-shadow: 0px 0px 20px rgb(83, 44, 255), 0 0 15px rgb(36, 58, 255), 0 0 20px rgb(0, 226, 215);
+}
+
+.main-text-n {
+    font-family:'Nova Square', cursive;
+    color:black;
+    font-weight: 200;
+    font-size: 4rem;
+    margin: 2px;
+}
+
+.main-text-n:hover {
+    font-family:'Nova Square', cursive;
+    margin: 2px;
+    font-weight: 600;
+    color:rgb(194, 11, 11);
+    text-shadow: 0px 0px 20px rgb(247, 74, 103), 0 0 15px rgb(207, 60, 60), 0 0 20px rgb(255, 130, 130);
+}
+
+.main-text-v {
+    font-family:'Nova Square', cursive;
+    color:black;
+    font-weight: 200;
+    font-size: 4rem;
+    margin: 2px;
+}
+
+.main-text-v:hover {
+    font-family:'Nova Square', cursive;
+    margin: 2px;
+    font-weight: 600;
+    color:rgb(235, 162, 4);
+    text-shadow: 0px 0px 20px rgb(255, 206, 44), 0 0 15px rgb(255, 243, 79), 0 0 20px rgb(255, 219, 18);
+}
+
+.main-text-e2 {
+    font-family:'Nova Square', cursive;
+    color:black;
+    font-weight: 200;
+    font-size: 4rem;
+    margin: 2px;
+}
+
+.main-text-e2:hover {
+    font-family:'Nova Square', cursive;
+    margin: 2px;
+    font-weight: 600;
+    color:rgb(32, 5, 150);
+    text-shadow: 0px 0px 20px rgb(83, 44, 255), 0 0 15px rgb(36, 58, 255), 0 0 20px rgb(0, 226, 215);
+}
+
+.main-text-n2 {
+    font-family:'Nova Square', cursive;
+    color:black;
+    font-weight: 200;
+    font-size: 4rem;
+    margin: 2px;
+}
+
+.main-text-n2:hover {
+    font-family:'Nova Square', cursive;
+    margin: 2px;
+    font-weight: 600;
+    color:rgb(194, 11, 11);
+    text-shadow: 0px 0px 20px rgb(247, 74, 103), 0 0 15px rgb(207, 60, 60), 0 0 20px rgb(255, 130, 130);
+}
+
+.main-text-i2 {
+    font-family:'Nova Square', cursive;
+    color:black;
+    font-weight: 200;
+    font-size: 4rem;
+    margin: 2px;
+}
+
+.main-text-i2:hover {
+    font-family:'Nova Square', cursive;
+    margin: 2px;
+    font-weight: 600;
+    color:rgb(235, 162, 4);
+    text-shadow: 0px 0px 20px rgb(255, 206, 44), 0 0 15px rgb(255, 243, 79), 0 0 20px rgb(255, 219, 18);
+}
+
+.main-text-d {
+    font-family:'Nova Square', cursive;
+    color:black;
+    font-weight: 200;
+    font-size: 4rem;
+    margin: 2px;
+}
+
+.main-text-d:hover {
+    font-family:'Nova Square', cursive;
+    margin: 2px;
+    font-weight: 600;
+    color:rgb(32, 5, 150);
+    text-shadow: 0px 0px 20px rgb(83, 44, 255), 0 0 15px rgb(36, 58, 255), 0 0 20px rgb(0, 226, 215);
+}
+
+.main-text-o {
+    font-family:'Nova Square', cursive;
+    color:black;
+    font-weight: 200;
+    font-size: 4rem;
+    margin: 2px;
+}
+
+.main-text-o:hover {
+    font-family:'Nova Square', cursive;
+    margin: 2px;
+    font-weight: 600;
+    color:rgb(194, 11, 11);
+    text-shadow: 0px 0px 20px rgb(247, 74, 103), 0 0 15px rgb(207, 60, 60), 0 0 20px rgb(255, 130, 130);
+}
+
+
+#hero-1 {
+    background-color:rgb(0, 0, 0);
+    min-height: 450px;
+    text-align: center;
+    padding-top: 5rem;
+    padding-bottom: 5rem;
+}
+
+#hero-2 {
+    background-color:rgb(182, 0, 0);
+    min-height: 450px;
+    text-align: center;
+    padding-top: 5rem;
+    padding-bottom: 5rem;
+}
+
+#hero-3 {
+    background-color: rgb(255, 174, 0);
+    min-height: 450px;
+    text-align: center;
+    padding-top: 5rem;
+    padding-bottom: 5rem;
+}
+
+#hero-4 {
+    background-color:rgb(24, 0, 131);
+    min-height: 450px;
+    text-align: center;
+    padding-top: 5rem;
+    padding-bottom: 5rem;
+}
+
+.foto-hero-1 {
+    width: 25rem;
+    height:25rem;
+    border-radius: 10%;
+    margin: 2rem;
+    box-shadow: 0 0px 50px 0 rgb(114, 102, 104), 0 0px 50px 0 rgb(58, 57, 57);
+}
+
+.carrusel {
+    box-shadow:  0 0px 50px 0 rgb(255, 255, 255), 0 0px 50px 0 rgb(255, 255, 255);
+    max-width: 100vw;
+}
+
+.text-hero-2 {
+    margin-top:5rem;
+    margin-bottom:5rem;
+    color: rgb(0, 0, 0);
+    text-shadow: 1px 1px 2px rgb(253, 251, 251), 0 0 25px rgb(172, 172, 172), 0 0 5px rgb(75, 75, 75);
+    font-family: 'Nova Square', cursive;
+    font-size:2.5rem;
+}
+
+.text-hero-2-titulo{
+    margin-top:5rem;
+    margin-bottom:5rem;
+    color: rgb(0, 0, 0);
+    text-shadow: 1px 1px 2px rgb(253, 251, 251), 0 0 25px rgb(172, 172, 172), 0 0 5px rgb(75, 75, 75);
+    font-family:'Nova Square', cursive;
+    font-size:4rem;
+    font-weight: 400;
+}
+
+.boton-enlace {
+    margin-top:-3rem;
+    background-color: black;
+    color:rgb(255, 255, 255);
+}
+
+.boton-enlace:hover {
+    color:black;
+    background-color: white;
+    box-shadow: 0 0px 10px 0 rgb(248, 255, 151), 0 0px 100px 0 rgb(253, 253, 253);
+}
+
+.foto-hero-3-soft {
+    max-width: 60vw;
+    max-height: 60vh;
+    border-radius: 30%;
+    box-shadow: 0 0px 50px 0 rgb(248, 255, 151), 0 0px 50px 0 rgb(253, 253, 253);
+    margin-top: 0rem;
+    margin-bottom: 2rem;
+}
+
+.main-text-hero-3 {
+    margin-top:5rem;
+    margin-bottom:5rem;
+    color: rgb(0, 0, 0);
+    text-shadow: 1px 1px 2px rgb(253, 251, 251), 0 0 25px rgb(172, 172, 172), 0 0 5px rgb(75, 75, 75);
+    font-family:'Nova Square', cursive;
+    font-size:4rem;
+    font-weight: 400;
+}
+
+.texto-hero-3 {
+    font-family:'Nova Square', cursive;
+    color:black;
+    font-weight: 200;
+    font-size: 2rem;
+}
+
+.texto-hero-3:hover {
+    color:white;
+    text-shadow: 1px 1px 2px rgb(253, 251, 251), 0 0 25px rgb(187, 187, 187), 0 0 5px rgb(250, 245, 255);
+}
+
+.contactame-box {
+    max-width: 70vw;
+    max-height:70vh;
+    border-radius: 20%;
+    box-shadow: 0 0px 50px 0 rgb(214, 239, 255), 0 0px 50px 0 rgb(253, 253, 253);
+    margin-top: 0rem;
+    margin-bottom: 2rem;
+}
+
+.texto-contacto {
+    color:black;
+    font-family: 'Nova Square', cursive;
+    font-weight: 400;
+    margin:5rem;
+}
+
+.texto-contacto-1:hover {
+    color:white;
+    text-shadow: 1px 1px 2px rgb(253, 251, 251), 0 0 25px rgb(225, 182, 255), 0 0 5px rgb(201, 150, 255);
+}
+
+.texto-contacto-2:hover {
+    color:white;
+    text-shadow: 1px 1px 2px rgb(253, 251, 251), 0 0 25px rgb(229, 193, 255), 0 0 5px rgb(201, 150, 255);
+}
+
+.texto-contacto-3:hover {
+    color:white;
+    text-shadow: 1px 1px 2px rgb(253, 251, 251), 0 0 25px rgb(223, 179, 255), 0 0 5px rgb(201, 150, 255);
+}
+
+
+.icons {
+    color:black;
+    font-family: 'Nova Square', cursive;
+    font-weight: 400;
+    font-size: 3rem;
+}
+
+.icons:hover {
+    color:white;
+    text-shadow: 1px 1px 2px rgb(253, 251, 251), 0 0 25px rgb(224, 180, 255), 0 0 5px rgb(201, 150, 255);
+}
+
+ /* termina hero */
+
+
+ /* adaptable responsivo */
+
+ @media screen and (max-width: 767px) {
+    .navbar-brand {
+        display: none;    
+    }
+
+    .texto-contacto {
+        font-size: 50px;
+        text-align: center;
+        justify-content: center;
+    }
+}
+
+ /* adaptable responsivo */
