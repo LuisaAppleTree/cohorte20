@@ -1,0 +1,14 @@
+/* .altura-img{
+    height: 90vh;   
+} */
+
+/* altura es vh 
+ancho es vw */
+
+.altura-img {
+    height: calc(100vh - 56px);
+}
+
+.card-img-top {
+    height: 90vh;
+}
