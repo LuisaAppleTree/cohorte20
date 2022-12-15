@@ -1,5 +1,7 @@
 package com.generation.mlmm.myappdb.models;
 
+import java.util.ArrayList;
+
 import jakarta.persistence.*;
 
 @Entity
@@ -12,7 +14,12 @@ public class UsuarioModel {
 	private String nombre;
 	private String email;
 	private Integer prioridad;
-
+	
+	@OneToMany (mappedBy = "usuario") //un usuario, muchos productos
+	private ArrayList<ProductoModel> productos;
+	@OneToMany (mappedBy = "usuario") //un usuario, muchas ordenes
+	private ArrayList<OrdenModel> ordenes;
+	
 	public UsuarioModel() {
 
 	}
@@ -54,6 +61,22 @@ public class UsuarioModel {
 
 	public void setPrioridad(Integer prioridad) {
 		this.prioridad = prioridad;
+	}
+
+	public ArrayList<ProductoModel> getProductos() {
+		return productos;
+	}
+
+	public void setProductos(ArrayList<ProductoModel> productos) {
+		this.productos = productos;
+	}
+
+	public ArrayList<OrdenModel> getOrdenes() {
+		return ordenes;
+	}
+
+	public void setOrdenes(ArrayList<OrdenModel> ordenes) {
+		this.ordenes = ordenes;
 	}
 
 }
